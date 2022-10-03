@@ -15,7 +15,7 @@ const Card = ({ type }) => {
       >
         03/04/2010
       </h1>
-      <div className="flex justify-between">
+      <div className="flex justify-between">      
         {type === "mastercard" ? (
           <div>
             <RiMastercardLine className="text-white" />

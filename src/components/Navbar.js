@@ -18,9 +18,9 @@ const Navbar = () => {
           <a>Loyalty Programs</a>
           <a>Loans</a>
         </div>
-        <div className="text-black space-y-3  ">
+        <div className="text-black space-y-3 flex flex-col items-start justify-center ">
           <h1 className="font-bold text-lg">OpenBank</h1>
-          <p className="text-sm">2022 openbank licence #19 from 06.07.2022</p>
+          <p className="text-sm text-start">2022 openbank licence #19 from 06.07.2022</p>
         </div>
       </div>
     </div>

@@ -3,14 +3,14 @@ import NavLinks from './links/NavLinks'
 import { AiOutlineSearch } from 'react-icons/ai';
 import { IoMdNotificationsOutline} from 'react-icons/io';
 import {IoIosArrowUp} from 'react-icons/io';
-
+import LOGO from '.././assets/header-logo.jpg'
 import { useState } from 'react';
 const Header = () => {
 const [active, setActive] = useState('')
 
 let navLinks = ["Overview","Payment", "Cards","Account", "Admin"]
 const  userImage = require('../assets/profile-img.jpg')
-const LOGO = require('.././assets/header-logo.jpg')
+ 
   return (
     <div className='flex w-full items-center justify-between space-x-4 pb-3 pt-4 px-3'>
 <div className='border-b border-gray-900 w-[25%] flex items-center justify-center pb-2 md:justify-start  md:start-x-2  md:pb-6'>
